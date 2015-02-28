@@ -60,7 +60,8 @@ li{
 	padding:2em;
 }
 #logo{
-	width:10rem;
+	width:14rem;
+	margin:-2em;
 	float:left;
 }
 #companyname{

@@ -34,6 +34,7 @@ p{
 
 h1{
 	font-family: 'Metamorphous', cursive;
+	color:#822c2f;
 }
 
 h2{
@@ -59,17 +60,21 @@ li{
 	background-color: #feffef;
 	padding:2em;
 }
+
 #logo{
 	width:14rem;
 	margin:-2em;
 	float:left;
 }
+
 #companyname{
 	display:block;
 	float:left;
 	font-size:4em;
 	margin-left: 1em;
+	color:#ae0508;
 }
+
 .footlinks li{
 	display: inline;
 }
@@ -149,4 +154,3 @@ input[type=button]:hover{
 input[type=button]:active{
 	background-color:#feffef;
 }
-

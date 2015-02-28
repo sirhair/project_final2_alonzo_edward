@@ -1,6 +1,7 @@
 html{
 	font-size:16px;
 	font-family: 'Lora', serif;
+	background-color:#40302b;
 }
 
 body footer{
@@ -11,6 +12,9 @@ body footer{
 section {
 	width:66%;
 	float:left;
+}
+main{
+	clear:both;
 }
 
 aside {
@@ -51,7 +55,19 @@ li{
 
 #container{
 	margin:0 auto;
-	max-width:78em;
+	max-width:82em;
+	background-color: #feffef;
+	padding:2em;
+}
+#logo{
+	width:10rem;
+	float:left;
+}
+#companyname{
+	display:block;
+	float:left;
+	font-size:4em;
+	margin-left: 1em;
 }
 .footlinks li{
 	display: inline;
@@ -69,7 +85,7 @@ li{
 .swatch {
 	width: 7rem;
 	height: 7rem;
-	border:1px dashed brown;
+	border:1px dashed #40302b;
 }
 
 .swatch:nth-of-type(1){
@@ -133,6 +149,3 @@ input[type=button]:active{
 	background-color:#feffef;
 }
 
-#logo{
-	width:10rem;
-}

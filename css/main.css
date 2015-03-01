@@ -149,29 +149,33 @@ a:visited{
 /********************* Forms ******************/
 input[type=submit]{
 	background-color:#ae0508;
-	padding:.5em .75em;
+	outline: .5em solid #ae0508;
+	padding:.25em .5em;
 	font-family: 'Metamorphous', cursive;
 	font-size: 1.1em;
 	margin:.5rem;
+	border-style:none;
 }
 input[type=submit]:hover{
-	background-color:#822c2f;
+	outline: .5em solid #822c2f;
 }
 input[type=submit]:active{
-	background-color:#feffef;
+	outline: .5em solid #feffef;
 }
 input[type=button]{
 	font-family: 'Metamorphous', cursive;
 	font-size: 1.1em;
-	padding:.5em .75em;
+	padding:.25em .5em;
+	outline: .25em solid #827769;
 	background-color:#827769;
 	margin:.5rem;
+	border-style:none;
 }
 input[type=button]:hover{
-	background-color:#40302b;
+	outline: .25em solid #40302b;
 }
 input[type=button]:active{
-	background-color:#feffef;
+	outline: .25em solid #feffef;
 }
 
 

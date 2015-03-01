@@ -68,6 +68,9 @@ li{
 	padding:2em;
 }
 
+#sitehead{
+	background: url("../img/prancing-pony-text.svg") 100% no-repeat;
+}
 
 #logo{
 	display:block;

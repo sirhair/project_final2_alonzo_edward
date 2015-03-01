@@ -4,14 +4,6 @@ html{
 	background-color:#40302b;
 }
 
-#container header{
-	padding-bottom:2rem;
-}
-
-#container footer{
-	clear:both;
-	padding-bottom:2rem;
-}
 
 main{
 	clear:both;
@@ -58,10 +50,17 @@ li{
 	margin:0;
 	height:auto;
 }
-.clearboth{
-	clear:both;
+
+
+/********************* IDs ******************/
+#container header{
+	padding-bottom:2rem;
 }
 
+#container footer{
+	clear:both;
+	padding-bottom:2rem;
+}
 #container{
 	margin:0 auto;
 	max-width:82em;
@@ -69,18 +68,23 @@ li{
 	padding:2em;
 }
 
+
 #logo{
-	width:14rem;
-	margin:-2em;
-	float:left;
+	display:block;
+	margin:0 auto;
+	width:20rem;
+	max-width: 100%;
 }
 
 #companyname{
-	display:block;
-	float:left;
-	font-size:3em;
-	margin-left: 1em;
-	color:#ae0508;
+	display:none;
+}
+
+
+/************************** classes ******************/
+
+.clearboth{
+	clear:both;
 }
 
 .footlinks li{
@@ -123,6 +127,8 @@ li{
 	/*pony white*/
 }
 
+/********************* LINKS ******************/
+
 a{
 	text-decoration: none;
 }
@@ -140,6 +146,7 @@ a:visited{
 	color:#827769;
 }
 
+/********************* Forms ******************/
 input[type=submit]{
 	background-color:#ae0508;
 	padding:.5em .75em;
@@ -168,6 +175,7 @@ input[type=button]:active{
 }
 
 
+/********************* BREAKPOINTS ******************/
 /*sidebar breakpoint*/
 @media screen and (min-width: 750px){
 	section {
@@ -178,13 +186,5 @@ input[type=button]:active{
 	aside {
 		width:33%;
 		float:left;
-	}
-
-}
-
-/*site header breakpoint*/
-@media screen and (min-width: 981px){
-	#companyname{
-		font-size:4em;
 	}
 }

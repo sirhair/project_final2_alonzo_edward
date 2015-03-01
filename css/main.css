@@ -9,17 +9,18 @@ body footer{
 	padding-bottom:2rem;
 }
 
-section {
-	width:66%;
-	float:left;
-}
 main{
 	clear:both;
 }
 
+section {
+}
+
 aside {
-	width:33%;
-	float:left;
+}
+
+article{
+	clear:both;
 }
 
 img {
@@ -157,4 +158,18 @@ input[type=button]:hover{
 }
 input[type=button]:active{
 	background-color:#feffef;
+}
+
+
+@media screen and (min-width: 750px){
+	section {
+		width:66%;
+		float:left;
+	}
+
+	aside {
+		width:33%;
+		float:left;
+	}
+
 }

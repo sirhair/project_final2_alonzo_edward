@@ -9,12 +9,6 @@ main{
 	clear:both;
 }
 
-section {
-}
-
-aside {
-}
-
 article{
 	clear:both;
 }
@@ -120,8 +114,6 @@ header .ground{
 	margin:.1rem;
 }
 
-.aesthetic img{
-}
 .swatch {
 	width: 100%;
 	height: 10rem;
